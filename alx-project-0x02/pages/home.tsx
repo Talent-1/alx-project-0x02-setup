@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from '@/components/common/Card'
+import Button from "@/components/common/Card";
 
 const Home: React.FC = () => {
     return (
@@ -10,6 +11,15 @@ const Home: React.FC = () => {
            title="Daily Contents"
            content="Your daily dose of insightful articles, tutorials, and stories to keep you informed and inspired."
            />    
+
+           <Button 
+  size="lg" 
+  shape="rounded" 
+  onClick={() => setShowModal(true)}
+>
+  Create New Post
+</Button>
+
         </div>
     );
 }
