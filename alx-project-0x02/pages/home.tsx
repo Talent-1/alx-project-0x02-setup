@@ -1,12 +1,12 @@
 import React from 'react';
 import Card from '@/components/common/Card'
-import Button from "@/components/common/Card";
+import Button from "@/components/common/Button";
 import Header from '@/components/layout/Header';
 
 const Home: React.FC = () => {
     return (
-        <Header />
         <div className="container mx-auto px-4 py-8">
+            <Header />
             <h1 className="text-4xl font-bold mb-4">Welcome </h1>
 
            <Card 
