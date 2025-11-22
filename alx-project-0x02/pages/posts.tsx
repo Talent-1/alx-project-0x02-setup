@@ -1,6 +1,7 @@
 import React from "react";
 import PostCard from "@/components/common/PostCard";
 import { PostProps } from "@/interfaces";
+import Header from '@/components/layout/Header';
 
 interface PostsPageProps {
   posts: PostProps[];
