@@ -1,9 +1,11 @@
 import React from  'react';
-import Button from '@/components/common/Button'
+import Button from '@/components/common/Button';
+import Button from '@/components/layout/Header';
 
 const About: React.FC = () => {
     return (
         <div className="container mx-auto px-4 py-8">
+          <Header />
             <h1 className="text-4xl font-bold mb-4">About Daily Contents</h1>
         {/* small button */}
         <div className="mb-6">

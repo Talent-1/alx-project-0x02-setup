@@ -4,8 +4,8 @@ export interface CardProps {
 }
 
 export interface ButtonProps {
-  size: string;
-  shape: string;
+   size: "small" | "medium" | "large";
+  shape: "rounded-sm" | "rounded-md";
   children?: React.ReactNode;
   onClick?: () => void;
   type?: "button" | "submit" | "reset";
