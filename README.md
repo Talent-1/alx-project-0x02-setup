@@ -1,5 +1,19 @@
 # Next.js Project Setup and Basics
 
-## Project Description
+## ALX Next.js Project 0x02 Setup
 
-This repository provides a foundational setup for a Next.js project. It includes essential configuration, structure, and introductory guidance to help you quickly understand and begin working with Next.js. The goal is to support learning, experimentation, and production-ready development using modern React and Next.js features.
+This repository contains the foundational setup for an ALX project using Next.js, TypeScript, and Tailwind CSS.
+
+## Configuration
+
+* **Framework:** Next.js (Pages Router)
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS
+* **Linting:** ESLint
+
+## Directory Structure
+
+The project includes the following main components:
+* `pages/index.tsx`: Main landing page with welcome message.
+* `components/layout/Header.tsx`: Layout component for navigation.
+* `interfaces/`: Directory for TypeScript type definitions.
