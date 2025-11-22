@@ -1,6 +1,6 @@
 import React from  'react';
 import Button from '@/components/common/Button';
-import Button from '@/components/layout/Header';
+import Header from '@/components/layout/Header';
 
 const About: React.FC = () => {
     return (
